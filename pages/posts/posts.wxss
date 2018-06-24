@@ -1,0 +1,17 @@
+@import "./posts-item/posts-item-template.wxss";
+
+swiper {
+    height: 500rpx;
+    width: 100%;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+    background: #fff;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 5px;
+}

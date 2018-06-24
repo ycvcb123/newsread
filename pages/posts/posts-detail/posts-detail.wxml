@@ -1,0 +1,29 @@
+<view class="container">
+    <view catchtap="onMusicTap" class="music-player">
+        <image class="music-image" src="{{music ? '/images/pause.png' : '/images/play.png'}}"></image>
+    </view>
+    <image style="width: 100%" src="{{post_details.headImgSrc}}"></image>
+    <view class="detial-author">
+        <image src="{{post_details.author_img}}" class="detial-img"></image>
+        <text class="auth">{{post_details.author}}</text>
+        <text class="const-text">发表于</text>
+        <text class="date">{{post_details.dateTime}}</text>
+    </view>
+
+    <view>
+        <view catchtap="collectTap" class="tool-img">
+            <image wx:if="{{collected}}" src="../../../images/save.png" class="tool_child_img"></image>
+            <image wx:else src="../../../images/savecancel.png" class="tool_child_img"></image>
+
+            <image catchtap="onShareTap" src="../../../images/share.png" class="tool_child_img"></image>
+        </view>
+        <view class="middle-line"></view>
+    </view>
+
+    <view class="title">{{post_details.title}}</view>
+
+    <view class="detail">
+        {{post_details.detail}}
+    </view>
+
+</view>

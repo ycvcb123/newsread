@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="user-avatar" src="/images/me.png"></image>
+    <text class="user-name">hello,World Cup!</text>
+    <view class="moto-container" bindtap='onTap'>
+        <text class="moto">开启世界杯之旅</text>
+    </view>
+</view>

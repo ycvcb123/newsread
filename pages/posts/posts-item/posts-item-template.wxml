@@ -1,0 +1,22 @@
+<template name="postsItem">
+    <view class="post-container">
+        <!-- 图片日期  -->
+        <view class="author-date">
+            <image wx:if="{{true}}" class="avatar" src="{{author_img}}"></image>
+            <text class="text">{{date}} {{idx}}</text>
+        </view>
+        <!-- 图片内容摘要  -->
+        <text class="post-title">{{title}}</text>
+        <image class="post-image" src="{{post_image}}"></image>
+        <text class="post-text">{{content}}</text>
+        <!-- 点赞评论  -->
+        <view class="post-like">
+            <!-- 点赞  -->
+            <image class="post-like-image" src="/images/dianzan.png"></image>
+            <text class="post-like-font">{{dianzan_num}}</text>
+            <!-- 评论  -->
+            <image class="post-like-image" src="/images/pinglun.png"></image>
+            <text class="post-like-font">{{pinglun_num}}</text>
+        </view>
+    </view>
+</template>

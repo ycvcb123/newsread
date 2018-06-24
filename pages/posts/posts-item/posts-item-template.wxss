@@ -1,0 +1,54 @@
+.avatar {
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.text {
+    margin-left: 20rpx;
+    vertical-align: middle;
+}
+
+.author-date {
+    margin: 10px 0px 20px 10px;
+    font-size: 26rpx;
+}
+
+.post-title {
+    font-size: 34rpx;
+    font-weight: 600;
+    color: #333;
+    margin: 0px 0px 10px 10px;
+}
+
+.post-image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.post-text {
+    color: #666;
+    font-size: 28rpx;
+    margin-left: 20rpx;
+    margin-bottom: 20rpx;
+    line-height: 40rpx;
+    letter-spacing: 2rpx;
+}
+
+.post-like {
+    font-size: 13px;
+    flex-direction: row;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.post-like-image {
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+.post-like-font {
+    vertical-align: middle;
+    margin-left: 10rpx;
+    margin-right: 20rpx;
+}
